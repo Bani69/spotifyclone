@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spotifyclone/static/css/main.f703c5b7.css",
-    "main.js": "/spotifyclone/static/js/main.3841d9f6.js",
+    "main.js": "/spotifyclone/static/js/main.bb34ffe1.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/spotifyclone/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/spotifyclone/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/spotifyclone/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -10,10 +10,10 @@
     "static/media/spotify.png": "/spotifyclone/static/media/spotify.354b4fb0550ea999320c.png",
     "index.html": "/spotifyclone/index.html",
     "main.f703c5b7.css.map": "/spotifyclone/static/css/main.f703c5b7.css.map",
-    "main.3841d9f6.js.map": "/spotifyclone/static/js/main.3841d9f6.js.map"
+    "main.bb34ffe1.js.map": "/spotifyclone/static/js/main.bb34ffe1.js.map"
   },
   "entrypoints": [
     "static/css/main.f703c5b7.css",
-    "static/js/main.3841d9f6.js"
+    "static/js/main.bb34ffe1.js"
   ]
 }
