@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Spotify from "./components/spotify-config";
+
+import Login from "./components/login";
+
+
 
 function App() {
+  const  codeurl= new URLSearchParams(window.location.search).get('code');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="w-full h-screen bg-[#000] overflow-hidden ">
+        { codeurl?   <Spotify  code={codeurl}/>:        <Login />}
+      </div>
   );
 }
 
